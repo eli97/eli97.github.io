@@ -8,6 +8,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #fafafa;
+  overflow: hidden;
+  background: url('./assets/images/bg.jpg');
+  /*background-image: url('./assets/images/pexels-todd-trapani-488382-2276928_cropped_2.jpg');*/
+  background-size:110%;
 }
 
 code {

@@ -9,7 +9,8 @@ import Header from './components/Header/Header';
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-/* by default, html is a 12x12 grid, as are all elements*/
+/* by default, html is a 12x12 grid, as are all elements
+Routes was formerly named Switch*/
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Profile />
         </Grid>
         <Grid item xs>
-        {/*just the size category takes the remaining space */}  
+        {/*just the size category takes the remaining space*/}  
           <Header />
           <Router>
             <Routes>
