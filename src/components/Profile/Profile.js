@@ -1,7 +1,7 @@
 import { Typography } from '@mui/material'
 import React from 'react'
 import './Profile.css'
-import CustomTimeline from '../Timeline/Timeline'
+import CustomTimeline from '../Timeline/CustomTimeline'
 /*used rafce code snippet, creates a functional component
 A functional component is an element returned from a JavaScript function*/
 

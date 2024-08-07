@@ -1,0 +1,50 @@
+.timeline {
+    padding: 0 !important;
+    /*material ui has some defualt padding on most of its components*/
+    /*it's bad practice to use it everywhere, but !important will override
+    imported styling that would otherwise take precedence over yours*/
+}
+
+.timeline .timeline_header {
+    padding-top: 7px;
+}
+
+.timeline .timeline_firstItem {
+    min-height: 80px;
+}
+
+.timeline .MuiTimelineItem-missinggOppositeContent::before {
+    display: none;
+}
+
+.timeline .timeline_dot_header {
+    background-color: var(--main-color);
+    padding: 5px;
+}
+
+.timeline .timeline_dot {
+    border-color: var(--main-color);
+    padding: 5px;
+}
+ .timeline .MuiTimelineConnector-root {
+    background-color: rgb(198, 198, 198) !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.timeline .timeline_dot_header > .MuiSvgIcon-root {
+    /*'>' will apply this styling to all children of the .MuiSvgIcon-root class*/
+    font-size: 20px;
+    color: darkslategray;
+}
+
+/*.timeline .separator_padding {
+    padding-left: 10px;
+    timeline separator is already centered,
+    use this if it breaks for some reason.
+    }*/
+
+.timeline .timeline_content {
+    padding-top: 0px;
+    margin-bottom: 20px;
+}

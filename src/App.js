@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio/Portfolio';
 import Resume from './pages/Resume/Resume';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import WorkIcon from '@mui/icons-material/Work';
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
