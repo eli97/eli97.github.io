@@ -1,7 +1,31 @@
+<CustomTimelineItem title='Name' text={resumeData.name} />
+            <CustomTimelineItem title='Title' text={resumeData.title} />
+
+            export const CustomTimelineItem = ({ title, text, link }) => {
+  <TimelineItem>
+    <CustomTimelineSeparator />
+    <TimelineContent>
+      {link ? (
+        <Typography>
+          <span>{title}</span>{" "}
+          <a href={link} target="_blank" rel='noreferrer'>
+            {text}
+          </a>
+        </Typography>
+      ) : (
+        <Typography>
+          <span>{title}</span>
+        </Typography>
+      )}
+    </TimelineContent>
+  </TimelineItem>;
+};
+
+
 import "./CustomTimeline.css";
 import * as React from "react";
 import Timeline from "@mui/lab/Timeline";
-import TimelineItem, {timelineItemClasses} from "@mui/lab/TimelineItem";
+import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
@@ -11,12 +35,7 @@ import { Typography } from "@mui/material";
 
 const CustomTimeline = ({ title, icon }) => {
     return (
-        <Timeline className={"timeline"} sx={{
-            [`& .${timelineItemClasses.root}:before`]: {
-              flex: 0,
-              padding: 0,
-            },
-          }}>
+        <Timeline className={"timeline"} >
             {/*Item Header */}
             <TimelineItem className={"timeline_firstItem"}>
               <TimelineSeparator>

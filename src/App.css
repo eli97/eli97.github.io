@@ -2,8 +2,18 @@
     --main-color: #ffc500;
 }
 
+.container_shadow {
+    -webkit-box-shadow: 0px 0px 28px 15px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0px 0px 28px 15px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 0px 28px 15px rgba(0, 0, 0, 0.21);
+}
+
 .App {
   text-align: center;
+}
+
+.top_60{
+    margin-top: 60px !important;
 }
 
 .App-logo {
@@ -15,6 +25,12 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+@media (max-width: 991px) {
+    .top_60 {
+        margin-top: 30px !important;
+    }
 }
 
 .App-header {

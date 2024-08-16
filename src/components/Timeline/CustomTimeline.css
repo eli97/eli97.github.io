@@ -3,6 +3,7 @@
     /*material ui has some defualt padding on most of its components*/
     /*it's bad practice to use it everywhere, but !important will override
     imported styling that would otherwise take precedence over yours*/
+    
 }
 
 .timeline .timeline_header {
@@ -15,6 +16,7 @@
 
 .timeline .MuiTimelineItem-missinggOppositeContent::before {
     display: none;
+    
 }
 
 .timeline .timeline_dot_header {
