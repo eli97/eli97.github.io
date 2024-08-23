@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/eli97.github.io/static/css/main.9342b403.css",
+    "main.js": "/eli97.github.io/static/js/main.d40965fc.js",
+    "static/js/453.4fcc8745.chunk.js": "/eli97.github.io/static/js/453.4fcc8745.chunk.js",
+    "static/media/picofme.jpg": "/eli97.github.io/static/media/picofme.784e5af1b0c804259aa7.jpg",
+    "static/media/bg.jpg": "/eli97.github.io/static/media/bg.abd4582ab11423815f8a.jpg",
+    "index.html": "/eli97.github.io/index.html",
+    "main.9342b403.css.map": "/eli97.github.io/static/css/main.9342b403.css.map",
+    "main.d40965fc.js.map": "/eli97.github.io/static/js/main.d40965fc.js.map",
+    "453.4fcc8745.chunk.js.map": "/eli97.github.io/static/js/453.4fcc8745.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9342b403.css",
+    "static/js/main.d40965fc.js"
+  ]
+}
