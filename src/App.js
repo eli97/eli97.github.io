@@ -24,8 +24,8 @@ function App() {
         </Grid>
         <Grid item xs>
           {/*just the size category takes the remaining space*/}
-          <Header />
           <Router>
+          <Header />
             <Routes>
               <Route path="/portfolio" element={<Portfolio />}></Route>
               <Route path="/Resume" element={<Resume />}></Route>

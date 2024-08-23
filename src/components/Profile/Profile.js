@@ -9,7 +9,8 @@ import resumeData from "../../utils/resumeData";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineItem, {timelineItemClasses} from "@mui/lab/TimelineItem";
 import Timeline from "@mui/lab/Timeline";
-import myButton from "../Button/Button";
+import CustomButton from "../Button/Button.js";
+import GetAppIcon from '@mui/icons-material/GetApp';
 /*used rafce code snippet, creates a functional component
 A functional component is an element returned from a JavaScript function*/
 
@@ -67,7 +68,9 @@ const Profile = () => {
           />
         ))}
         <br />
-        <myButton></myButton>
+        <div className='button_container'>
+        <CustomButton text={"Download Cv"} icon={<GetAppIcon />}/>
+        </div>
       </div>
     </div>
   );
