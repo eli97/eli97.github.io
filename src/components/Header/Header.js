@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./Header.css";
 //import Container from 'react-bootstrap/Container';
 //import NavDropdown from 'react-bootstrap/NavDropdown';
 import {
@@ -26,14 +27,15 @@ const Header = (props) => {
   /*Question marks allow you to check if it exists first*/
   return (
     <Navbar expand="lg" className="header" sticky="top">
-      <Nav.Link as={NavLink} to="/">
+      <Nav.Link as={NavLink} to="/" className="header_navlink">
+        {/*Bootstrap has default padding and margins*/}
         <Navbar.Brand className="header_home">
           <HomeRounded />
         </Navbar.Brand>
       </Nav.Link>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Nav>
+        <Nav className="header_left">
           {/*Resume Link*/}
           <Nav.Link
             as={NavLink}
@@ -53,7 +55,7 @@ const Header = (props) => {
           </Nav.Link>
         </Nav>
         <div className="header_right">
-        {Object.keys(resumeData.socials).map((key) => (
+          {Object.keys(resumeData.socials).map((key) => (
             <a
               href={resumeData.socials[key].link}
               target="_blank"
@@ -61,7 +63,7 @@ const Header = (props) => {
               {resumeData.socials[key].icon}
             </a>
           ))}
-          <CustomButton text={'Hire Me'} icon={<Telegram />}/>
+          <CustomButton text={"Hire Me"} icon={<Telegram />} />
         </div>
       </Navbar.Collapse>
     </Navbar>
