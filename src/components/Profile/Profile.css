@@ -50,6 +50,10 @@
   margin-bottom: 12px;
 }
 
+.profile_information > a {
+    color: var(--main-color);
+}
+
 .timelineItem_text {
   font-size: 13.5px !important;
   color: #787878;

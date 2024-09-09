@@ -7,10 +7,10 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer_left">
-        <Typography className="footer_name"></Typography>
+        <Typography className="footer_name">{resumeData.name}</Typography>
       </div>
       <div className="footer_right">
-        <Typography className="copy_right">
+        <Typography className="copyright">
           Designed and Developed by{" "}
           <a
             href={resumeData.socials.LinkedIn.link}
