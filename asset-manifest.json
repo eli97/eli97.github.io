@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.865a21f2.css",
-    "main.js": "./static/js/main.2563bf28.js",
-    "static/js/453.4fcc8745.chunk.js": "./static/js/453.4fcc8745.chunk.js",
-    "static/media/picofme.jpg": "./static/media/picofme.784e5af1b0c804259aa7.jpg",
-    "static/media/bg.jpg": "./static/media/bg.abd4582ab11423815f8a.jpg",
-    "index.html": "./index.html",
-    "main.865a21f2.css.map": "./static/css/main.865a21f2.css.map",
-    "main.2563bf28.js.map": "./static/js/main.2563bf28.js.map",
-    "453.4fcc8745.chunk.js.map": "./static/js/453.4fcc8745.chunk.js.map"
+    "main.css": "/eli97.github.io/static/css/main.3b685cbc.css",
+    "main.js": "/eli97.github.io/static/js/main.82249336.js",
+    "static/js/453.4fcc8745.chunk.js": "/eli97.github.io/static/js/453.4fcc8745.chunk.js",
+    "static/media/picofme.jpg": "/eli97.github.io/static/media/picofme.784e5af1b0c804259aa7.jpg",
+    "static/media/bg.jpg": "/eli97.github.io/static/media/bg.abd4582ab11423815f8a.jpg",
+    "index.html": "/eli97.github.io/index.html",
+    "main.3b685cbc.css.map": "/eli97.github.io/static/css/main.3b685cbc.css.map",
+    "main.82249336.js.map": "/eli97.github.io/static/js/main.82249336.js.map",
+    "453.4fcc8745.chunk.js.map": "/eli97.github.io/static/js/453.4fcc8745.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.865a21f2.css",
-    "static/js/main.2563bf28.js"
+    "static/css/main.3b685cbc.css",
+    "static/js/main.82249336.js"
   ]
 }
