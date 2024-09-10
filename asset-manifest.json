@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/eli97.github.io/static/css/main.3b685cbc.css",
-    "main.js": "/eli97.github.io/static/js/main.82249336.js",
-    "static/js/453.4fcc8745.chunk.js": "/eli97.github.io/static/js/453.4fcc8745.chunk.js",
-    "static/media/picofme.jpg": "/eli97.github.io/static/media/picofme.784e5af1b0c804259aa7.jpg",
-    "static/media/bg.jpg": "/eli97.github.io/static/media/bg.abd4582ab11423815f8a.jpg",
-    "index.html": "/eli97.github.io/index.html",
-    "main.3b685cbc.css.map": "/eli97.github.io/static/css/main.3b685cbc.css.map",
-    "main.82249336.js.map": "/eli97.github.io/static/js/main.82249336.js.map",
-    "453.4fcc8745.chunk.js.map": "/eli97.github.io/static/js/453.4fcc8745.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.f26744f9.css",
+    "main.js": "/portfolio/static/js/main.fde664ea.js",
+    "static/js/453.4fcc8745.chunk.js": "/portfolio/static/js/453.4fcc8745.chunk.js",
+    "static/media/picofme.jpg": "/portfolio/static/media/picofme.784e5af1b0c804259aa7.jpg",
+    "static/media/bg.jpg": "/portfolio/static/media/bg.abd4582ab11423815f8a.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.f26744f9.css.map": "/portfolio/static/css/main.f26744f9.css.map",
+    "main.fde664ea.js.map": "/portfolio/static/js/main.fde664ea.js.map",
+    "453.4fcc8745.chunk.js.map": "/portfolio/static/js/453.4fcc8745.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b685cbc.css",
-    "static/js/main.82249336.js"
+    "static/css/main.f26744f9.css",
+    "static/js/main.fde664ea.js"
   ]
 }
