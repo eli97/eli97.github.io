@@ -39,7 +39,7 @@ const Header = (props) => {
           {/*Resume Link*/}
           <Nav.Link
             as={NavLink}
-            to="/"
+            to="/resume"
             className={pathName === "/" ? "header_link_active" : "header_link"}>
             Resume
           </Nav.Link>
